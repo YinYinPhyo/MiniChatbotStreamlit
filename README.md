@@ -48,6 +48,10 @@ pip install openai streamlit python-dotenv tiktoken
 
 Part 2: Getting responses from OpenAI API.
 
+Output
+<img width="1106" alt="result" src="https://github.com/user-attachments/assets/266a5ae3-127f-4d68-aa53-ed715340c9b8">
+
+
 ### chatbot.py
 
 ```python
@@ -93,4 +97,4 @@ if user_prompt := st.chat_input("Your Prompt:"):
         chatbot_msg.markdown(full_response)
     st.session_state.messages.append({"role": "assistant","content": full_response})
 
-<img width="1106" alt="result" src="https://github.com/user-attachments/assets/c865e173-3557-4d5f-92cc-270e115aeaa1">
+
