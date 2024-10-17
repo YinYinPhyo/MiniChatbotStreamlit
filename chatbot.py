@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 client = OpenAI()
-st.title("My GPT-4o Mini Chatbot 🤖")
+st.title("My GPT-4o Mini Chatbot, YIN YIN 🤖")
 # Initialize messages in the session state
 if "messages" not in st.session_state:
     st.session_state.messages = []

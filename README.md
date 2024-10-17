@@ -48,6 +48,10 @@ pip install openai streamlit python-dotenv tiktoken
 
 Part 2: Getting responses from OpenAI API.
 
+To run
+streamlit run chatbot.py
+
+
 Output
 <img width="1106" alt="result" src="https://github.com/user-attachments/assets/266a5ae3-127f-4d68-aa53-ed715340c9b8">
 
