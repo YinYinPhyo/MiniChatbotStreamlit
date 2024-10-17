@@ -88,6 +88,7 @@ if user_prompt := st.chat_input("Your Prompt:"):
 
 Output
  
+<img width="1106" alt="Screenshot 2024-10-16 at 6 04 45 PM" src="https://github.com/user-attachments/assets/57d6851a-91bf-4bb7-8ad7-12cd45db5636">
 
 ************
-![image](https://github.com/user-attachments/assets/266d8ed0-df2f-4dda-99f4-55dbb00a1fba)
+
