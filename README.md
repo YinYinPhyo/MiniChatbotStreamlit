@@ -77,12 +77,10 @@ Part 2: Getting responses from OpenAI API.
 
 chatbot.py
 
-<<<<<<< HEAD
-### Output in Markdown:
 ```python
 # This is a Python code snippet
 =======
->>>>>>> 5d80493ac17e68bc1cba0ac5c37a2ebbebba2100
+
 import streamlit as st
 from openai import OpenAI
 from dotenv import load_dotenv
@@ -123,12 +121,9 @@ if user_prompt := st.chat_input("Your Prompt:"):
     st.session_state.messages.append({"role": "assistant","content": full_response})
     
 ************
-<<<<<<< HEAD
 
 Output
 ![Chatbot Screenshot](images/result.png)
 =======
 
-
->>>>>>> 5d80493ac17e68bc1cba0ac5c37a2ebbebba2100
 
