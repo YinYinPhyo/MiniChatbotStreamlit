@@ -54,7 +54,7 @@ streamlit run chatbot.py
 
 
 Output
-<img width="1106" alt="result" src="https://github.com/user-attachments/assets/266a5ae3-127f-4d68-aa53-ed715340c9b8">
+<img width="1676" alt="result" src="https://github.com/user-attachments/assets/bfb6f641-3bc8-4d91-b229-de7dddf4f314">
 
 
 ### chatbot.py
