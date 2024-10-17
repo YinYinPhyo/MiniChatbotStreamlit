@@ -1,4 +1,5 @@
 # MiniChatbotStreamlit
+# Project: OpenAI API + GPT-4o Mini Chatbot + Streamlit
 Github Link
 https://github.com/YinYinPhyo/MiniChatbotStreamlit
 
