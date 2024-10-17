@@ -93,3 +93,4 @@ if user_prompt := st.chat_input("Your Prompt:"):
         chatbot_msg.markdown(full_response)
     st.session_state.messages.append({"role": "assistant","content": full_response})
 
+<img width="1106" alt="result" src="https://github.com/user-attachments/assets/c865e173-3557-4d5f-92cc-270e115aeaa1">
