@@ -95,7 +95,7 @@ if user_prompt := st.chat_input("Your Prompt:"):
 ************
 
 Output
-![Chatbot Screenshot](images/result.png)
+![Chatbot Screenshot](./images/result.png)
 =======
 
 
