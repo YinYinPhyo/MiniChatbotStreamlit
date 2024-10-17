@@ -7,6 +7,7 @@ Part 1: Preparing the project.
 Step 1: Prepare the Python Environment.
 
 At Terminal
+
 python3 -m venv myenv
 source myenv/bin/activate
 
@@ -47,7 +48,7 @@ pip install openai streamlit python-dotenv tiktoken
 
 Part 2: Getting responses from OpenAI API.
 
-chatbot.py
+### chatbot.py
 
 ```python
 # This is a Python code snippet
@@ -91,11 +92,4 @@ if user_prompt := st.chat_input("Your Prompt:"):
                     chatbot_msg.markdown(full_response)
         chatbot_msg.markdown(full_response)
     st.session_state.messages.append({"role": "assistant","content": full_response})
-    
-************
-
-Output
-![Chatbot Screenshot](./images/result.png)
-=======
-
 
