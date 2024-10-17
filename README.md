@@ -1,4 +1,5 @@
 # MiniChatbotStreamlit
+<<<<<<< HEAD
 
 Github Link https://github.com/YinYinPhyo/MiniChatbotStreamlit
 
@@ -27,6 +28,47 @@ For the project we’ll need:
 OpenAI API: openai— the library to use OpenAI models via API calls. 
 Streamlit: streamlit — to create a User Interface for the chatbot. 
 Python Dotenv: python-dotenv — to load secret variables from the .env file. 
+=======
+Github Link
+https://github.com/YinYinPhyo/MiniChatbotStreamlit
+
+
+Part 1: Preparing the project.
+Step 1: Prepare the Python Environment.
+
+At Terminal
+python3 -m venv myenv
+source myenv/bin/activate
+
+pip install --upgrade pip (Optional but recommended)
+pip install openai (Install the openai API package)
+
+Step 2: Create an OpenAI API Key.
+First, go to the OpenAI platform. “Create new secret key”
+
+Step 3: Loading OpenAI API Key.
+Option 1: Using Environment Variables.
+
+At VSCode Terminal
+1. Set an environment variable
+export OPENAI_API_KEY="your_openai_api_key_here"
+2. Access the environment variable in Python:
+
+import os
+
+openai_api_key = os.getenv('OPENAI_API_KEY')
+if not openai_api_key:
+    raise ValueError("No API key found in environment variables")
+
+
+Step 2: Install the necessary packages.
+
+For the project we’ll need:
+OpenAI API: openai— the library to use OpenAI models via API calls.
+Streamlit: streamlit — to create a User Interface for the chatbot.
+Python Dotenv: python-dotenv — to load secret variables from the .env
+file.
+>>>>>>> 5d80493ac17e68bc1cba0ac5c37a2ebbebba2100
 Tiktoken: tiktoken — for counting tokens.
 
 pip install openai streamlit python-dotenv tiktoken
@@ -35,9 +77,12 @@ Part 2: Getting responses from OpenAI API.
 
 chatbot.py
 
+<<<<<<< HEAD
 ### Output in Markdown:
 ```python
 # This is a Python code snippet
+=======
+>>>>>>> 5d80493ac17e68bc1cba0ac5c37a2ebbebba2100
 import streamlit as st
 from openai import OpenAI
 from dotenv import load_dotenv
@@ -77,8 +122,13 @@ if user_prompt := st.chat_input("Your Prompt:"):
         chatbot_msg.markdown(full_response)
     st.session_state.messages.append({"role": "assistant","content": full_response})
     
-
+************
+<<<<<<< HEAD
 
 Output
 ![Chatbot Screenshot](images/result.png)
+=======
+
+
+>>>>>>> 5d80493ac17e68bc1cba0ac5c37a2ebbebba2100
 
